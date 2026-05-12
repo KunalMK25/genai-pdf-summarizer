@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+.cache/
+huggingface/
+
+*.pdf
+
+.idea/
+.vscode/
+
+chroma_db/
+data/
+uploads/
