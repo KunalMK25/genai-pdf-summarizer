@@ -108,13 +108,24 @@ Add screenshots here later.
 ## 🎯 Future Improvements
 
 - Chat with PDF
-- Multi-PDF support
 - OCR support
 - Better summarization models
 - Dark mode UI improvements
 - Download summary as text/PDF
 
 ---
+
+## 📸 Screenshots
+
+### Home Interface
+
+![Home Interface](https://huggingface.co/spaces/KunalMK25/pdf-summarizer/raw/main/screenshot-home.png)
+
+---
+
+### PDF Analysis Result
+
+![PDF Analysis Result](https://huggingface.co/spaces/KunalMK25/pdf-summarizer/raw/main/screenshot-result.png)
 
 ## 👨‍💻 Author
 
