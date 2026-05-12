@@ -119,13 +119,13 @@ Add screenshots here later.
 
 ### Home Interface
 
-![Home Interface](https://huggingface.co/spaces/KunalMK25/pdf-summarizer/raw/main/screenshot-home.png)
+![Home Interface](screenshot-home.png)
 
 ---
 
 ### PDF Analysis Result
 
-![PDF Analysis Result](https://huggingface.co/spaces/KunalMK25/pdf-summarizer/raw/main/screenshot-result.png)
+![PDF Analysis Result](screenshot-result.png)
 
 ## 👨‍💻 Author
 
