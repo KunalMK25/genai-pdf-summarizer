@@ -56,4 +56,4 @@ app = gr.Interface(
     description="Upload a PDF to generate summary and sentiment analysis."
 )
 
-app.launch()
+app.launch(server_name="0.0.0.0", server_port=7860)
