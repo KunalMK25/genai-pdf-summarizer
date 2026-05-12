@@ -1,31 +1,121 @@
-# GenAI PDF Summarizer & Sentiment Analyzer
+# 📄 GenAI PDF Summarizer & Sentiment Analyzer
 
-A simple Generative AI project built using Python and Hugging Face Transformers.
+An AI-powered web app that summarizes PDF documents and performs sentiment analysis using Hugging Face Transformers and Gradio.
 
-## Features
-- PDF text extraction
-- AI-based summarization
-- Sentiment analysis
-- Lightweight transformer models
+## 🚀 Live Demo
 
-## Technologies Used
+👉 Hugging Face Space:  
+https://huggingface.co/spaces/KunalMK25/pdf-summarizer
+
+---
+
+## ✨ Features
+
+- 📄 Upload PDF files
+- 🧠 AI-generated summaries
+- 😊 Sentiment analysis (Positive / Negative)
+- ⚡ Lightweight transformer models
+- 🌐 Interactive Gradio web interface
+- ☁️ Deployable on Hugging Face Spaces
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
-- Transformers
-- Hugging Face
+- Gradio
+- Hugging Face Transformers
 - PyPDF
+- Torch
 
-## Installation
+---
+
+## 📦 Models Used
+
+### Summarization
+- `Falconsai/text_summarization`
+
+### Sentiment Analysis
+- `distilbert-base-uncased-finetuned-sst-2-english`
+
+---
+
+## 📂 Project Structure
+
+```bash
+genai_project/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── sample.pdf
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/genai-pdf-summarizer.git
+cd genai-pdf-summarizer
+```
+
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment:
+
+### Windows
+```bash
+venv\\Scripts\\activate
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Project
+Run the application:
 
 ```bash
-python sample.py
+python app.py
 ```
 
-## Models Used
-- Falconsai/text_summarization
-- distilbert-base-uncased-finetuned-sst-2-english
+---
+
+## 🌍 Deployment
+
+This project is deployed using:
+
+- Hugging Face Spaces
+- Gradio SDK
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here later.
+
+---
+
+## 🎯 Future Improvements
+
+- Chat with PDF
+- Multi-PDF support
+- OCR support
+- Better summarization models
+- Dark mode UI improvements
+- Download summary as text/PDF
+
+---
+
+## 👨‍💻 Author
+
+Kunal
